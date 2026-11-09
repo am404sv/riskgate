@@ -10,6 +10,7 @@ version: 1.0.0
 date-released: "2026-11-09"
 license: MIT
 repository-code: "https://github.com/am404sv/riskgate"
+doi: 10.5281/zenodo.24092852
 type: software
 keywords:
   - blockchain

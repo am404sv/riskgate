@@ -1,5 +1,7 @@
 # RiskGate: нейромережеве визначення класу ризику транзакцій і адаптивне коригування протоколу їх обробки
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24092852.svg)](https://doi.org/10.5281/zenodo.24092852) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--1176--9812-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-1176-9812)
+
 Програмна частина дисертаційного дослідження Аскерова В. В. «МЕТОДИ І ЗАСОБИ ЗАБЕЗПЕЧЕННЯ ЗАХИЩЕНИХ ТРАНЗАКЦІЙ ДЛЯ БЛОКЧЕЙН-СИСТЕМ З АДАПТИВНИМ КОРИГУВАННЯМ ПРОТОКОЛУ ВИКОНАННЯ ТРАНЗАКЦІЙ» (спеціальність 123 «Комп'ютерна інженерія»,
 Хмельницький національний університет).
 
@@ -139,6 +141,37 @@ Weber M. et al. Anti-Money Laundering in Bitcoin: Experimenting with Graph Convo
 for Financial Forensics. KDD Workshop on Anomaly Detection in Finance, 2019. Умови використання —
 на сторінці набору на Kaggle.
 
+## Цитування
+
+Код архівовано на Zenodo з постійним DOI. Якщо ви використовуєте цю роботу у своєму дослідженні, будь ласка, цитуйте її:
+
+**ДСТУ 8302:2015:**
+
+> Аскеров В. В. RiskGate: нейромережева класифікація ризику транзакцій та адаптивний протокол виконання транзакцій для блокчейн-систем [Електронний ресурс] : програмне забезпечення. Версія 1.0.0. Zenodo, 2026. DOI: 10.5281/zenodo.24092852. URL: https://doi.org/10.5281/zenodo.24092852.
+
+**APA 7:**
+
+> Askerov, V. V. (2026). *RiskGate: Neural-network risk classification and adaptive transaction protocol for blockchain systems* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24092852
+
+**BibTeX:**
+
+```bibtex
+@software{Askerov_RiskGate_2026,
+  author       = {Askerov, Viacheslav V.},
+  title        = {{RiskGate: Neural-network risk classification
+                   and adaptive transaction protocol
+                   for blockchain systems}},
+  month        = nov,
+  year         = {2026},
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.24092852},
+  url          = {https://doi.org/10.5281/zenodo.24092852}
+}
+```
+
+Файл [`CITATION.cff`](CITATION.cff) містить машиночитані метадані цитування. GitHub автоматично відображає кнопку «Cite this repository» на головній сторінці репозиторію.
+
 ## Ліцензія
 
 [MIT](LICENSE)
@@ -155,3 +188,5 @@ encoding (GTT+PLE); MC-Dropout uncertainty and calibrated scores drive WHITE/GRA
 maps to pre-consensus processing modes and an Ed25519-signed hash-chained decision journal.
 On the temporal test split (time steps 35–49) the model reaches ROC-AUC 0.9365 and AUPRC 0.7887.
 Install the requirements and run `python run_all.py` to download the data and reproduce the results.
+
+Archived on Zenodo with permanent DOI: [10.5281/zenodo.24092852](https://doi.org/10.5281/zenodo.24092852).
