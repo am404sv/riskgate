@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "RiskGate: Neural-network risk classification and adaptive transaction protocol for blockchain systems"
+authors:
+  - family-names: "Askerov"
+    given-names: "Viacheslav V."
+    orcid: "https://orcid.org/0009-0009-1176-9812"
+    affiliation: "Khmelnytskyi National University"
+version: 1.0.0
+date-released: "2026-11-09"
+license: MIT
+repository-code: "https://github.com/am404sv/riskgate"
+type: software
+keywords:
+  - blockchain
+  - risk-management
+  - neural-networks
+  - transaction-security
+  - elliptic-dataset
+  - pytorch
+  - anti-money-laundering
+  - dissertation
