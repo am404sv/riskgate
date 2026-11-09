@@ -1,0 +1,22 @@
+# дані (завантажуються скриптом)
+data/
+
+# проміжні та повторно створювані файли
+results/*.npz
+results/journal.jsonl
+results/model_mlp.pt
+results/model_ftt.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ОС і редактори
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

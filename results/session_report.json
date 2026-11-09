@@ -1,0 +1,29 @@
+{
+ "stream": 20000,
+ "batch": 256,
+ "mc_T": 5,
+ "int8": true,
+ "zones": {
+  "WHITE": 17881,
+  "GRAY": 859,
+  "BLACK": 1260
+ },
+ "queues": {
+  "mempool": 17881,
+  "inspection": 859,
+  "quarantine": 1260
+ },
+ "wall_seconds": 35.06886020000002,
+ "tps": 570.3065308064956,
+ "gateway_ms_per_tx": 1.656175764999898,
+ "journal": {
+  "records": 2119,
+  "invalid": 0
+ },
+ "policy": {
+  "tw": 0.6502425226114532,
+  "tb": 0.8735776070780676,
+  "umax": 0.11834409505128851,
+  "temperature": 0.8862400848311145
+ }
+}
